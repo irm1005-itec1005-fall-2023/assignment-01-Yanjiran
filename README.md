@@ -46,7 +46,7 @@ For the actual content of your web page, you can select anything you want, a lon
 
 The web page that you are building must have the following **minimum requirements**. You may build out your web page with even more content than this if you would like, though no additional marks will be awarded.
 
-- Header Section
+- Header Section  
   - Logo
   - Site name
   - Navigation links
