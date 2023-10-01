@@ -78,7 +78,7 @@
       <section class = "Hero">
         <img src="./images/HeroRock.png" alt="clipart of long stone">
       </section>
-      <h1>The Rock Shop</h1>
+      <h1>TheRockShop</h1>
       <section>
         <h2>Menu</h2>
         <ul>
@@ -104,6 +104,14 @@
         <section>
           <h3>BIG rock</h3>
           <p>Don't be mistaken by the name of this rock. They are the size of a baseball, perfectly fitting in the palm of your hands. Our BIG Rock is the perfect emotional support item to have around. If you are feeling stressed or sad, then give the rock a hold and feel the coldness of them; Very relaxing! You can even paint our BIG Rocks or add things to give them personaility!</p>
+          <img src="./images/BIG_rock.jpg" alt="Photo of ">
+        </section>
+
+        <section>
+          <h3>Plural Rock</h3>
+          <p>Plural rocks is just small rock... but more in quantity...More the merrier... Perfect for small gift bags or decoration. 
+          </p>
+          <img src="./images/pebles.jpg" alt="small rocks in hand">
         </section>
         
         <!--QUESTION TO ASK: 
@@ -120,23 +128,66 @@
         - Shiny rock
         - premium rock-->
       </section>
+
       <section>
-        <!--FAQ
-        - Is real?
-        - size of rock?
-        - dilvery fee
-        durability
-        are there diff kinds of rock
-      -->
+        <h2>Pricing</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Item Name </th>
+              <th>Price ($CAD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Small Rock</td>
+              <td>$2.00</td>
+            </tr>
+            <tr>
+              <td>BIG Rock</td>
+              <td>$5.00</td>
+            </tr>
+            <tr>
+              <td>Plural Rock</td>
+              <td>$8.50</td>
+            </tr>
+          </tbody>
+        </table>
+
       </section>
 
       <section>
-        <!--Forms
-        contact form
-        Payment FOrm
-        Feedback form
-        -->
-      </section>
+        <h2>Feedback</h2>
+        <p>If you have any questions or concerns, please submit a feebback form!</p>
+
+        <fieldset>
+          <legend>Personal Information:</legend>
+            <label for="name">Name:</label>
+            <input type="text" required/>
+            <label for="email">Email:</label>
+            <input type="email" required/>
+            <label for="phone">Phone:</label>
+            <input type="phone"/>
+        </fieldset>
+
+        <fieldset>
+          <legend>Feedback:</legend>
+            <label for="feedback type">Feedback Type:</label>
+              <select id="feedback type" required>
+                <option value="">--Please choose an option--</option>
+                <option value="feedback type">Question</option>
+                <option value="feedback type">Suggestion</option>
+                <option value="feedback type">Concern</option>
+                <option value="feedback type">Other</option>
+              </select>
+              <br />
+            <label for="feedback">Feedback Details:</label><br />            
+              <textarea rows="4" cols="50" required></textarea><br />
+              <input type="checkbox" id="followup" name="followup" value="yes" />
+
+              <label for="followup">I would like to receive a follow-up response.</label><br /> 
+              <input type="submit" value="Submit Feedback" />
+          </fieldset>
       </section>
       
     </main>
@@ -144,9 +195,20 @@
     <footer>
       <img src="./images/TheRockShopLogo.png" alt="T">
 
+    
+      <h2>TheRockShop</h2>
+
+      <nav>
+        <h3>Menu</h3>
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+      </nav>
+
+      <p>&copy; 2023</p>
     </footer>
-
-
     <!--
 
       LIST ANY CITATIONS HERE
@@ -155,13 +217,6 @@
         * B
 
     -->
-
-    <!--
-
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
-
-    -->
-
-    
+  
   </body>
 </html>
